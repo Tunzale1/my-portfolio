@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.body{
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 665px;
+    background-size: 100% 100%;
+   background-image:url("https://4kwallpapers.com/images/wallpapers/macos-monterey-stock-blue-dark-mode-layers-5k-1920x1200-5895.jpg")
+  }
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 400%;
+    color: aliceblue;
+  }
+.description{
+    width: 75%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    font-size: 120%;
+    margin-right: 3%;
+    color: white;
+    background-color: #0927a0b1;
+    border: dashed rgba(255, 255, 255, 0.659);
+    padding: 9px;
+    border-radius: 10px;
+    
+ } 
+
+.hero{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+.image{
+    margin-right: 10%;
+    margin-top: 9%;
+    border-radius: 80pc;
+    width: 25%;
+    height: 25%;
+    animation-name: example1;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+	animation-iteration-count: infinite
+   
+}
+@keyframes example1 {
+    0%   {border:10px dashed red; }
+    25%  {border: 10px dashed yellow; }
+    50%  {border: 10px dashed rgb(0, 255, 200); }
+    75%  {border: 10px dashed rgb(255, 46, 234); }
+    100% {border: 10px dashed rgb(99, 255, 68); }
+  }
+.left{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.p{
+    margin-bottom: -25px;
+    color: #fff704;
+    font-size: 130%;
+}
+span{
+    background-color: #f3ec78;
+    background-image: linear-gradient(60deg, #d303a2, #e9f74b);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+}
+.fa-at{
+    color: aliceblue;
+}
+.fa-whatsapp{
+    color: aliceblue;
+}
+.fa-linkedin{
+    color: aliceblue;
+}
+.fa-github{
+    color: aliceblue;
+}

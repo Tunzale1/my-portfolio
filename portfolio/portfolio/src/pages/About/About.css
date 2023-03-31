@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.body2{
+font-family: 'Montserrat', sans-serif;
+width:100%;
+height: 665px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-image:url("https://swall.teahub.io/photos/small/66-662166_blue-hd-wallpapers-blue-2560-x-1440.jpg")
+}
+.hero2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+     width: 85%; 
+}
+h2{
+    background-color: rgba(4, 6, 8, 0.111);
+    padding-left: 10px;
+    border: 3px solid #2eeaff;
+    font-weight: 900;
+    font-size: 60px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(-45deg, #d3f52a, #2eeaff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+ul{
+    border: 1px solid#f3ec78;
+    height: 70%;
+    padding-right: 10px;
+    background-color: rgba(4, 6, 8, 0.111);
+}
+
+.uli{
+    line-height: 40px;
+    font-size: 25px;
+}
+.part1{
+margin-left: 6%;
+color: aliceblue;
+}
+.part2{
+color: aliceblue;
+}
+button{
+    margin-top: 200%;
+    height: 20%;
+    width: 200%;
+    font-size: 25px;
+    background-image: linear-gradient(-45deg, #d3f52a, #2eeaff);
+    background-size: 100%;
+    animation-name: example;
+  animation-duration: 17s;
+  animation-timing-function: linear;
+	animation-iteration-count: infinite;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.821)
+
+}
+@keyframes example {
+    0%   {border:4px solid rgb(204, 0, 255);}
+    25%  {border: 4px solid rgb(0, 30, 255);}
+    50%  {border: 4px solid rgb(0, 255, 255);}
+    75%  {border: 4px solid rgb(252, 255, 46);}
+    100% {border: 4px solid rgb(236, 68, 255);}
+  }
+    
+
+.course{
+    text-shadow: 2px 4px 4px rgba(46, 90, 173, 0.433);
+    font-size: 25px; 
+    color: rgb(248, 41, 255); 
+}
+.name{
+   margin-top: -10px; 
+   font-size:20px ;
+}
+.date{
+    margin-top: -17px;
+}
+
+    
+
+

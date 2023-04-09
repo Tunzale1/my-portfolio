@@ -1,23 +1,13 @@
 import React from 'react'
 import './App.css'
-import Typewriter from 'typewriter-effect';
 function App() {
   return (
     <div className='body'>
       <div className='hero'>
       <div className='left'>
-      <h1>
-        <Typewriter
-        
-        options={{
-          autoStart: true,
-          loop:true,
-          delay:50,
-          strings: ["I am Frontend Developer"]
-        }}
-        />
-        </h1>
-        <p className='description'> Hello ! It' s me Imanova Tunzala. I am a hard working individual with interest in programming field. I have strong creative and analytical skills.
+        <p className='p'>Junior Frontend Developer</p>
+        <h1> Hey! I Am <br></br> <span>Imanova Tunzala</span></h1>
+        <p className='description'>I am a hard working individual with interest in programming field.<br></br>I have strong creative and analytical skills.
           I am team player with an eye for detail. Experiences have taught me to take accessibility and responsiveness seriously,
          and I am excited to start my career at Frontend Developer.</p>
           <br></br>
